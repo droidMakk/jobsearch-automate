@@ -4,8 +4,9 @@
   "description": "automate job search",
   "main": ".",
   "scripts": {
-		"install": "pip install -r requirements.txt",
-		"freeze": "pip freeze > requirements.tx",
+		"install": "pip3 install -r requirements.txt",
+    "freeze": "pip3 freeze > requirements.txt",
+    "start": "python3 scraper.py",
     "test": "."
   },
   "repository": {
