@@ -1,0 +1,27 @@
+{
+  "name": "jobsearch-automate",
+  "version": "0.0.1",
+  "description": "automate job search",
+  "main": ".",
+  "scripts": {
+		"install": "pip install -r requirements.txt",
+		"freeze": "pip freeze > requirements.tx",
+    "test": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droidMakk/jobsearch-automate.git"
+  },
+  "keywords": [
+    "jobsearch",
+    "automation",
+    "script",
+    "python"
+  ],
+  "author": "droidmakk<droidmakk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/droidMakk/jobsearch-automate/issues"
+  },
+  "homepage": "https://github.com/droidMakk/jobsearch-automate#readme"
+}
